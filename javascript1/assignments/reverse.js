@@ -1,0 +1,11 @@
+let a=75846673
+b=a.toString()
+c=b.split('')
+d=c.reverse().join('')
+e=Math.floor(d)
+console.log(c)
+console.log(d)
+console.log(e)
+console.log(typeof b)
+console.log(typeof c)
+console.log(typeof e)
