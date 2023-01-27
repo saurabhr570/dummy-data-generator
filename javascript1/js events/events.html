@@ -1,0 +1,28 @@
+<html>
+    <head>
+
+    </head>
+<body>
+    <button id="onmouseover" style="background-color: aqua;" onmouseover="onmsovr()">onmouse</button><br>
+    <button id="onmouseout" style="background-color: rgb(61, 5, 94);" onmouseout="onmsout()">onmouse</button><br>
+    <button id="onmouseclick" style="background-color: rgb(182, 127, 9);" onclick="onmsclick()">onmouse</button><br>
+    <button id="onmousedoubleclick" style="background-color: rgb(33, 8, 121);" ondblclick="onmsdblclick()">onmouse</button><br>
+    <input type="text">
+    <input type="submit" required><br>
+    <span>"this field is required"</span>
+    <script>
+        function onmsovr(){
+            document.getElementById("onmouseover").style.backgroundColor="red"
+        }
+        function onmsout(){
+            document.getElementById("onmouseout").style.backgroundColor="yellow"
+        }
+        function onmsclick(){
+            document.getElementById("onmouseclick").style.backgroundColor="green"
+        }
+        function onmsdblclick(){
+            document.getElementById("onmousedoubleclick").style.backgroundColor="aqua"
+        }
+    </script>
+</body>
+</html>
