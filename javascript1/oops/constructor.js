@@ -1,17 +1,12 @@
-/*class college_id {
+class college_id {
   constructor(name, qualification, percent, pocketmoney) {
     this.name = name;
     this.qual = qualification;
     this.perc = percent;
     this.pm = pocketmoney;
   }
-  school(a){
-    this.name=this.name+a
-
-  }
 }
-let saurabh = new college_id()
-let manish = new college_id()
-saurabh.school(30000)
-manish.school(5000)
-console.log(saurabh.name)*/
+let a1=new college_id("saurabh","bcom",60,20000)
+let a2=new college_id("manish","bsc",61,10000)
+console.log(a1)
+console.log(a2.perc)
